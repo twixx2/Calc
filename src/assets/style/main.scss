@@ -1,5 +1,14 @@
 @import './reset.scss';
 
+@font-face {
+    font-family: 'Kiro';
+    src: url('../fonts/fonnts.com-Kiro.otf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
 .calculator {
     width: 100%;
     max-width: 515px;
@@ -34,6 +43,7 @@
             .history_ex {
                 font-size: 18px;
                 color: #6A6A68;
+                font-family: 'Kiro';
             }
         }
 
@@ -45,6 +55,7 @@
             justify-content: flex-end;
 
             .result_ex {
+                font-family: 'Kiro';
                 font-size: 45px;
                 color: white;
             }
@@ -84,6 +95,7 @@
     font-size: 1.5rem;
     transition: .5s;
     color: white;
+    font-family: 'Kiro';
 
     &.orange {
         background: #FF9500;
@@ -121,6 +133,7 @@
     transition: .5s;
     color: white;
     background: #505050;
+    font-family: 'Kiro';
 
     &:hover {
         background: #6A6A68;
@@ -140,7 +153,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    font-family: 'Kiro';
 
     &:hover {
         background: #6A6A68;
@@ -160,7 +173,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    font-family: 'Kiro';
 
     &:hover {
         background: #6A6A68;
